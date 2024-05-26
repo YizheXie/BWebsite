@@ -45,7 +45,23 @@
 				font-family: "KaiTi", "楷体", "STKaiti", serif;
 				color: #333;
 			}
+			p {
+				font-family: "STSong", "华文宋体", serif;
+				color: #333;
+			}
+			.home_btn .btn {
+				font-family: "STSong", "华文宋体", serif; /* 这里可以换成你喜欢的字体 */
+				font-size: 16px;
+				color: #fdfbfb;
+			}
+
+			.home_btn .btn .btn-text {
+				font-family: "STSong", "华文宋体", serif; /* 同样更改按钮内文本的字体 */
+				font-size: 16px;
+				color: #fffbfb;
+			}
 		</style>
+		
 	</head>
 
 	<body>
@@ -76,35 +92,34 @@
 						<nav class="navigation">
 							<ul>
 								<li>
-								<a href="index-banner.html">主页</i></a>
+									<a href="index-banner.html" style="letter-spacing: 1px; padding: 10px 15px;">主页</a>
 								</li>
 								<li>
-									<a href="#0">页面总览 <i class="fa fa-chevron-down"></i></a>
-									<ul>
-										<li><a href="about.html">关于我们</a></li>
-										<li><a href="service.html">服务</a></li>
-										<li><a href="portfolio.html">作品集</a></li>
-										<li><a href="team.html">团队</a></li>
-										<li><a href="contact.html">联系我们</a></li>
+									<a href="#0" style="letter-spacing: 1px; padding: 10px 15px;">页面总览 <i class="fa fa-chevron-down"></i></a>
+									<ul style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+										<li><a href="about.html" style="letter-spacing: 0.5px; padding: 8px 12px;">关于我们</a></li>
+										<li><a href="service.html" style="letter-spacing: 0.5px; padding: 8px 12px;">服务</a></li>
+										<li><a href="portfolio.html" style="letter-spacing: 0.5px; padding: 8px 12px;">作品集</a></li>
+										<li><a href="team.html" style="letter-spacing: 0.5px; padding: 8px 12px;">团队</a></li>
 									</ul>
 								</li>
-								<li><a href="portfolio.html">作品集</a></li>
-								<li><a href="team.html">团队</a></li>
+								<li><a href="portfolio.html" style="letter-spacing: 1px; padding: 10px 15px;">作品集</a></li>
+								<li><a href="team.html" style="letter-spacing: 1px; padding: 10px 15px;">团队</a></li>
 								<li>
-									<a href="blog.html">博客 <i class="fa fa-chevron-down"></i></a>
-									<ul>
-										<li><a href="blog.html">博客总览</a></li>
-										<li><a href="blog-details.html">细节</a></li>
+									<a href="blog.html" style="letter-spacing: 1px; padding: 10px 15px;">博客 <i class="fa fa-chevron-down"></i></a>
+									<ul style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+										<li><a href="blog.html" style="letter-spacing: 0.5px; padding: 8px 12px;">博客总览</a></li>
+										<li><a href="blog-details.html" style="letter-spacing: 0.5px; padding: 8px 12px;">细节</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">联系我们</a></li>
 							</ul>
 						</nav>
 						<div id="mobile_menu"></div>
-					</div><!-- End Col -->				
+					</div><!-- End Col -->
+					
 					
 					<div class="col-xl-2 col-lg-2 col-12 text-end d-none  d-lg-block">
-						<a class="btn btn_header" href="#contact"><span class="btn-text">了解更多</span></a>
+						<a class="btn btn_header" href="#contact"><span class="btn-text">联系我们!</span></a>
 					</div><!-- End Col -->
 				</div>
 			</div>
@@ -125,9 +140,9 @@
 								<div class="single_home">
 									<h1 class="rf_54">毛南族傩面文化</h1>
 									<p class="rf_14"> 傩面具作为毛南族文化的代表，是毛南族的<b>瑰宝</b>。 <br> 记载历史、传承文化、表达生活</p>
-									<div class="home_btn">
-										<a class="btn" href="#"><span class="btn-text">了解更多</span></a>
-									</div>
+									<!-- <div class="home_btn">
+										<a class="btn" href="#"><span class="btn-text">数字化展示</span></a>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -289,7 +304,7 @@
 				<div class="row">
 					<div class="col-lg-6 col-12 skill_area wow zoomIn">
 						<div class="title skill_title title_animated">
-							<div class="heading-intro-text">背景</div>
+							<div class="heading-intro-text">文化背景</div>
 							<h2>毛南族文化现状</h2>
 							<p>一个面向大众的调查问卷结果</p>
 						</div>
@@ -393,8 +408,8 @@
                     <div class="col-lg-5 col-xs-12">
 						<div class="title mt_50 wht_title text-left title_animated">
 							<div class="heading-intro-text">网站数据</div>
-							<h1>持续上涨的使用量</h1>
-							<p>毛南族傩面文化正被越来越多的人看到，通过我们的努力，更多的人关注和参与傩面文化的传承活动，保护这一珍贵的文化遗产，避免其被遗忘和消失。</p>
+							<h1>持续上涨的关注度</h1>
+							<p>毛南族傩面文化正被越来越多的人看到，通过数字化的平台，越来越多的人正在关注和参与傩面文化的传承活动.</p>
 						</div>
                     </div>
                     <div class="col-lg-7 col-xs-12">
@@ -413,7 +428,7 @@
                                     <div class="counter__item">
                                         <a href="#0">
                                             <span class="color_2 lnr lnr-checkmark-circle"></span>
-                                            <span class="name">库存视频数</span>
+                                            <span class="name">总图片量</span>
 											<span class="count">137</span>
                                         </a>
                                     </div>
@@ -433,7 +448,7 @@
                                     <div class="counter__item">
                                         <a href="#0">
                                             <span class="color_4 lnr lnr-users"></span>
-                                            <span class="name">分享数</span>
+                                            <span class="name">分享量</span>
 											<span class="count">778</span>
                                         </a>
                                     </div>
@@ -442,7 +457,7 @@
                                     <div class="counter__item">
                                         <a href="#0">
                                             <span class="color_5 lnr lnr-star"></span>
-                                            <span class="name">收藏数</span>
+                                            <span class="name">收藏量</span>
 											<span class="count">963</span>
                                         </a>
                                     </div>
@@ -727,7 +742,7 @@
 		<!--End team_members section -->
 
 		<!--Start testimonial_area section-->
-		<section class="testimonial_area pad">
+		<!-- <section class="testimonial_area pad">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-8">
@@ -775,7 +790,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!--End testimonial_area section-->
 		
 		<!--Start blog_area section-->
